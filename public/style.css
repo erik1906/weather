@@ -25,6 +25,11 @@ body{
   background-position: center;
   background-size: cover;
 }
+.overcast{
+  background-image: url("img/overcast.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .clear{
   background: url("img/sunny.jpg") no-repeat;
   background-position: center;

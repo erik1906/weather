@@ -32,6 +32,8 @@ try {
           const weather = temperature.current_observation.weather
           if(icon === 'mostlycloudy'){
             type = 'cloudy';
+          }else if(weather === 'Overcast'){
+            type = 'overcast';
           }else if((icon != 'rain') || icon != 'cloudy'){
             type = 'clear';
           }else{
