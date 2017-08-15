@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div(class=`content ${data.type}`)
+    div.card
+      div.center.city
+        h3 #{data.city}
+      div.center.temp
+        h1.margin  #{data.temp_c}°
+      div.center 
+        img(class=`img` src =`https://icons.wxug.com/i/c/i/${data.icon}.gif`)
+        h2 #{data.weather}
+          
+      
