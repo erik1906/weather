@@ -34,7 +34,7 @@ try {
             type = 'cloudy';
           }else if(weather === 'Overcast'){
             type = 'overcast';
-          }else if((icon != 'rain') || icon != 'cloudy'){
+          }else if((icon != 'rain') && icon != 'cloudy'){
             type = 'clear';
           }else{
             type = icon;
