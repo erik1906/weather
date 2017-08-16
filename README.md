@@ -1,7 +1,7 @@
 # weather
 An app to see the weather of Mexico City  
 ## Install
-Run the following command in Terminal:
+In the folder path run the following command in Terminal:
 
 ```$ npm install```
 
